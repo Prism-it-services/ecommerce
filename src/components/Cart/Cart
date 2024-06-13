@@ -1,0 +1,60 @@
+// // Cart.tsx
+// import React from 'react';
+// import styled from 'styled-components';
+
+// // Define the ICartItem interface for the items in the cart
+// interface ICartItem {
+//   id: number;
+//   name: string;
+//   price: number;
+//   quantity: number;
+// }
+
+// // Define the styled components
+// const StyledCartContainer = styled.div`
+//   position: fixed;
+//   top: 0;
+//   right: 0;
+//   width: 300px;
+//   background: #fff;
+//   border: 1px solid #ccc;
+//   padding: 20px;
+//   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+// `;
+
+// const StyledCartItemWrapper = styled.div`
+//   display: flex;
+//   justify-content: space-between;
+//   margin-bottom: 10px;
+// `;
+
+// // Define the CartProps interface for the props passed to the Cart component
+// interface CartProps {
+//   cartItems: ICartItem[];
+//   onRemove: (id: number) => void;
+// }
+
+// // Define the Cart component
+// const Cart: React.FC<CartProps> = ({ cartItems, onRemove }) => {
+//   // Calculate the total price of the items in the cart
+//   const calculateTotal = () => {
+//     return cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
+//   };
+
+//   return (
+//     // <StyledCartContainer>
+//     //   <h2>Cart</h2>
+//     //   {cartItems.map(item => (
+//     //     <StyledCartItemWrapper key={item.id}>
+//     //       <span>{item.name}</span>
+//     //       <span>{item.quantity} x ${item.price}</span>
+//     //       <button onClick={() => onRemove(item.id)}>Remove</button>
+//     //     </StyledCartItemWrapper>
+//     //   ))}
+//     //   <h3>Total: ${calculateTotal()}</h3>
+//     // </StyledCartContainer>
+//     <h1>This is Electronics page</h1>
+//   )
+// };
+
+// export default Cart;
